@@ -1,0 +1,8 @@
+{% extends "shop/base.xhtml" %}
+{% load static %}
+
+{% block title %}
+    {% if category %}{{ category.name }}{% else $}Products{% endif %}
+{% endblock %}
+
+
